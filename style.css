@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:400,700,900&display=swap');
+:root {
+    --orange:#f49c42;
+    --pink:#e04067;
+    --trans: .4s ease;
+    --text: #444;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: var(--text);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+.btn-warning {
+    background: var(--orange) ;
+    border: 1px solid var(--orange);
+    color: white;
+    border-radius: 0;
+}
+.btn-warning:hover {
+    background: var(--pink);
+    color: white;
+     border: 1px solid var(--pink);
+}
+
+/** navbar **/
+.navigacija {
+    background: var(--orange);
+    padding: 0 50px;
+}
+nav.bg-light {
+    background: transparent !important;
+}
+.navigacija .row {
+    align-items: center;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: white;
+}
+.navbar-brand:hover {
+    color: var(--pink);
+    transition: var(--trans);
+}
+.navigacija .icons {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.navigacija .icons li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    color: var(--pink) !important;
+    transition: var(--trans);
+}
+.navigacija i {
+    color: white;
+}
+.navigacija i:hover {
+    color: var(--pink);
+    transition: var(--trans);
+}
+
+/** slide **/
+.carousel-caption {
+    top: 25%;
+}
+.carousel-caption h5{
+    color: var(--pink);
+    font-size: 2rem;
+}
+.carousel-caption .lead {
+    color: var(--orange);
+    font-size: 2rem;
+}
+.carousel-caption  {
+    color: var(--text);
+}
+
+/** about **/
+.about h5, .about h3 {
+    color: var(--pink);
+}
+
+/** lubenica **/
+.watermelon {
+    background-image: linear-gradient(rgba(255,255,255, .5), rgba(255,255,255, .5)), url(img/watermellon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+/** team **/
+.team h2 {
+    color: var(--pink);
+    padding-bottom: 20px;
+    font-size: 3rem;
+}
+.team h4 {
+    background: var(--pink);
+    padding: 5px;
+    color: white;
+    
+}
+.team p {
+    padding: 20px 0 0 0;
+}
+.team img {
+    box-shadow: 0 0 20px var(--text);
+}
+
+/** footer **/
+footer {
+    background: var(--pink);
+}
+footer h2 {
+    font-size: 3rem;
+}
+footer i {
+    font-size: 2rem;
+    color: white;
+}
+footer i:hover {
+    color: var(--text);
+    transition: var(--trans);
+}
+footer h3 {
+    padding-top: 25px;
+    font-size: 1rem;
+    
+}
+/** blog **/
+.blog h1 {
+    font-size: 4rem;
+    color: var(--pink);
+}
+.blog .lead {
+    font-size: 1.4rem;
+    color: var(--pink);
+}
+.blog .jumbotron {
+    background: white !important;
+    margin-bottom: 0 !important;
+}
+/** text **/
+.postovi .limun {
+    background-image: url(img/limun.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+}
+
+.postovi .jagoda {
+    background-image: url(img/jagoda.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+}
+.postovi .jagoda h3 {
+    color: var(--pink);
+    background: rgba(0,0,0, .5);
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.postovi .limun h3 {
+    color: var(--pink);
+    background: rgba(0,0,0, .5);
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
